@@ -1,4 +1,42 @@
-# Geyser-termux-install
-Termux上Geyser的一键安装脚本。
+# QScript
 
-国内用户拉取脚本地址：https://get.qiusyan.top/geyser.sh
+QiuSYan的各种脚本。
+
+
+## Geyser-termux
+
+Termux上Geyser的安装脚本。
+
+- 脚本获取：
+Termux输入
+
+    ```bash
+    curl -O https://get.qiusyan.top/geyser.sh
+    ```
+
+- 执行脚本：
+Termux 输入
+
+    ```bash
+    bash geyser.sh
+    ```
+
+
+## CentOS-8-Stream-Sources
+
+对于CentOS 8 Stream的一键换源脚本
+
+目前正在完善
+
+- 脚本获取：
+命令行输入
+
+    ```bash
+    curl -O https://get.qiusyan.top/centos-8-stream.sh
+    ```
+- 执行脚本
+命令行输入
+
+    ```bash
+    bash centos-8-stream.sh
+    ```
