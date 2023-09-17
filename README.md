@@ -32,11 +32,11 @@ Termux 输入
 命令行输入
 
     ```bash
-    curl -O https://get.qiusyan.top/centos-8-stream.sh
+    curl -O https://get.qiusyan.top/centos_8_stream.sh
     ```
 - 执行脚本
 命令行输入
 
     ```bash
-    bash centos-8-stream.sh
+    bash centos_8_stream.sh
     ```
