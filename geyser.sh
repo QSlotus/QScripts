@@ -73,20 +73,20 @@ option3() {
         
     echo -n "请输入远程服务器地址："
     read remote_address
-    sed -i '42s/auto/'"$remote_address"'/' config.yml
+    sed -i '46s/auto/'"$remote_address"'/' config.yml
 
     echo -n "请输入远程服务器端口："
     read remote_port
-    sed -i '45s/25565/'"$remote_port"'/' config.yml
+    sed -i '49s/25565/'"$remote_port"'/' config.yml
 
     echo -n "请输入远程服务器验证模式（online/offline）：" 
     read remote_mode
-    sed -i '49s/online/'"$remote_mode"'/' config.yml
+    sed -i '53s/online/'"$remote_mode"'/' config.yml
     
     echo -e "\e[1m-------------------------------\e[0m"
     
     echo -e "\e[31m\e[1m请核对您的信息：\e[0m"
-    sed -n '42p;45p;49p' config.yml
+    sed -n '46p;49p;53p' config.yml
     
     echo -e "\e[36m远程服务器信息填写完成！\e[0m"
     echo -e "\e[1m-------------------------------\e[0m"
