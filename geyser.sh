@@ -33,12 +33,13 @@ option1() {
     echo -e "\e[36m即将开始更新软件包...\e[0m"
     # apt-get update -y 
     # DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
-    UPDATE="pkg up"
-    echo -e "\n" | $UPDATE
-    echo -e "\n" | $UPDATE
-    echo -e "\n" | $UPDATE
-    echo -e "\n" | $UPDATE
-    echo -e "\n" | $UPDATE
+    apt-get update -y
+    UPDATE="apt-get upgrade -y"
+    echo -e "Y" | $UPDATE
+    # echo -e "\n" | $UPDATE
+    #echo -e "\n" | $UPDATE
+    #echo -e "\n" | $UPDATE
+    #echo -e "\n" | $UPDATE
     echo -e "\e[36m软件包更新成功\e[0m"
     echo -e "\e[1m-------------------------------\e[0m"
     read -p "按回车键返回到主菜单..." enter
@@ -48,7 +49,8 @@ option1() {
 option2() {
     clear
     echo -e "\e[36m开始安装常用软件...\e[0m"
-    pkg install vim git wget zip unzip -y
+    INSTALL="pkg install vim git wget zip unzip -y"
+    echo -e "\n" | $INSTALL
     echo -e "\e[36m常用软件安装完毕！\e[0m"
     echo -e "已安装\e[1mvim\e[0m、\e[1mgit\e[0m、\e[1mwget\e[0m、\e[1mzip\e[0m、\e[1munzip\e[0m"
     echo -e "\e[1m-------------------------------\e[0m" 
