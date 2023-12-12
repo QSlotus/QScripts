@@ -73,3 +73,5 @@ if [ -f $flag_file ]; then
 else
   echo "Geyser正在运行"
 fi
+
+read -p "按回车键返回到主菜单..." enter 
