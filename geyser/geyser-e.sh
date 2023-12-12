@@ -32,6 +32,14 @@ option1() {
     
     echo -e "\e[36m远程服务器信息更新完毕！\e[0m"
     
+    echo -e "\e[36m请回到脚本主菜单并且选择启动Geyser\e[0m" 
+    sleep 5
+    echo -e "\e[36m待Geyser启动后请将Termux保持在后台并且打开你的Minecraft\e[0m"
+    sleep 5
+    echo -e "\e[36m打开Minecraft后，你将会在「好友」一栏处发现一个名为 「Geyser」的局域网游戏\e[0m"
+    sleep 5
+    echo -e "\e[36m点击进入即可联通到远程服务器\e[0m"
+
     read -p "按回车键返回到主菜单..." enter
 }
 
@@ -45,3 +53,5 @@ while true; do
     esac
     
 done
+
+echo -e "\e[36m\e[1mMade By QiuSYan\e[0m"
