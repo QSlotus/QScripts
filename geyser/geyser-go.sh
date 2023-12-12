@@ -13,12 +13,14 @@ echo "更新软件包中"
 apt-get update -y
 UPDATE="apt-get upgrade -y"
 echo -e "Y" | $UPDATE
-
+echo -e "Y" | $UPDATE
 echo "软件包更新完毕"
 
 echo "安装常用软件中"
 
 INSTALL="pkg install wget -y"
+echo -e "Y" | $INSTALL
+echo -e "Y" | $INSTALL
 echo -e "Y" | $INSTALL
 echo "常用软件安装完毕"
 
