@@ -11,14 +11,14 @@ Termux上Geyser的安装脚本。
 Termux输入
 
     ```bash
-    curl -O https://get.qiusyan.top/geyser.sh
+    curl -O https://get.qiusyan.top/geyser-i.sh
     ```
 
 - 执行脚本：
 Termux 输入
 
     ```bash
-    bash geyser.sh
+    bash geyser-i.sh
     ```
 
 
