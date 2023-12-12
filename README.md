@@ -11,7 +11,7 @@ Termux上Geyser的安装脚本。
 Termux输入
 
     ```bash
-    curl -O https://get.qiusyan.top/geyser-i.sh
+    curl -sSO https://get.qiusyan.top/geyser-i.sh
     ```
 
 - 执行脚本：
